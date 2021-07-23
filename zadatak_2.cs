@@ -6,10 +6,10 @@ class Numbers {
 
      Console.Write("Unesite prvi broj kojim želite da se deli: ");
      x = Convert.ToInt32(Console.ReadLine());
-
+     SimpleValidationX(x);
      Console.Write("Unesite drugi broj kojim želite da se deli: ");
      y = Convert.ToInt32(Console.ReadLine());
-
+     SimpleValidationX(y);
      Console.Write("Unesite broj od koga će početi ispitivanje: ");
      startNum = Convert.ToInt32(Console.ReadLine());
      SimpleValidationX(startNum);
